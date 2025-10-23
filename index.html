@@ -1,120 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Order Jasa Copywriting Otomatis — SUARA URBAN</title>
-  <!-- Link to external stylesheet -->
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nevile.store | Jasa Copywriting AI</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="brand">
-        <div class="logo">SU</div>
-        <div>
-          <div class="brand-name">SUARA URBAN</div>
-          <div class="brand-sub">Jasa Copywriting Otomatis</div>
-        </div>
-      </div>
-      <nav>
-        <a href="#pricing">Harga</a>
-        <a href="#cara">Cara Kerja</a>
-        <a href="#order" class="cta">Pesan Sekarang</a>
-      </nav>
-    </header>
+  <header class="header">
+    <h1 class="logo">Nevile<span>.store</span></h1>
+    <nav>
+      <a href="#pricing">Paket</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
 
-    <main>
-      <div class="hero">
-        <div class="hero-card">
-          <h1>Optimalisasi Konten Digital dengan Generative AI</h1>
-          <p class="lead">Layanan pembuatan copywriting otomatis untuk artikel, iklan, dan konten sosial media—cepat, konsisten, dan siap pakai. Pilih paket yang sesuai dan isi brief Anda.</p>
+  <section class="hero">
+    <h2>Optimalkan Strategi Konten Digitalmu</h2>
+    <p>Gunakan kekuatan Generative AI untuk copywriting cepat, efisien, dan profesional.</p>
+    <a href="#pricing" class="btn-primary">Lihat Paket</a>
+  </section>
 
-          <section id="pricing" class="pricing-section">
-            <div class="pricing">
-              <div class="plan">
-                <div class="title">Basic Plan</div>
-                <div class="price">$49 <small>/month</small></div>
-                <div class="features">
-                  • 10 artikel pendek / bulan<br>
-                  • 1 revisi per item<br>
-                  • Template SEO dasar
-                </div>
-                <a href="#order" class="btn">Pilih Basic</a>
-              </div>
+  <section id="pricing" class="pricing">
+    <h2>Pilih Paket Jasa</h2>
+    <p class="subtitle">Simple, jelas, dan sesuai kebutuhan bisnismu.</p>
 
-              <div class="plan popular">
-                <div class="title">Popular Plan</div>
-                <div class="price">$124 <small>/month</small></div>
-                <div class="features">
-                  • 30 artikel & posting sosial / bulan<br>
-                  • 3 revisi per item<br>
-                  • Optimasi SEO + CTA
-                </div>
-                <a href="#order" class="btn">Pilih Popular</a>
-              </div>
-
-              <div class="plan">
-                <div class="title">Pro Plan</div>
-                <div class="price">$299 <small>/month</small></div>
-                <div class="features">
-                  • Konten tak terbatas (TOS apply)<br>
-                  • Revisi tanpa batas<br>
-                  • Strategi konten & kalender
-                </div>
-                <a href="#order" class="btn">Pilih Pro</a>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <aside class="order-box" id="order">
-          <h3>Form Order Cepat</h3>
-          <p class="order-sub">Isi brief singkat Anda dan kami akan menghubungi untuk konfirmasi.</p>
-          <form action="#" method="post" novalidate>
-            <label for="nama">Nama Lengkap</label>
-            <input id="nama" name="nama" type="text" placeholder="Nama Anda" required>
-
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" placeholder="email@domain.com" required>
-
-            <label for="paket">Pilih Paket</label>
-            <select id="paket" name="paket">
-              <option>Basic — $49/month</option>
-              <option selected>Popular — $124/month</option>
-              <option>Pro — $299/month</option>
-            </select>
-
-            <label for="brief">Brief singkat (tujuan, target, kata kunci)</label>
-            <textarea id="brief" name="brief" placeholder="Tuliskan brief singkat di sini..."></textarea>
-
-            <div class="order-cta">
-              <button type="submit" class="btn">Kirim Order</button>
-              <a href="#" class="ghost">Hubungi via WhatsApp</a>
-            </div>
-          </form>
-
-          <div class="note"><strong>Note:</strong> Setelah submit kami akan mengirimkan invoice dan panduan brief lengkap via email.</div>
-        </aside>
+    <div class="plans">
+      <div class="plan">
+        <h3>Basic Plan</h3>
+        <p class="price">$49<span>/bulan</span></p>
+        <ul>
+          <li>5 Artikel Copywriting</li>
+          <li>1 Revisi Gratis</li>
+          <li>Waktu pengerjaan 3 hari</li>
+          <li>Email Support (30 hari)</li>
+        </ul>
+        <a href="https://wa.me/6281234567890?text=Halo%20Nevile.store,%20saya%20ingin%20order%20Basic%20Plan" class="btn-outline">Order via WhatsApp</a>
       </div>
 
-      <section id="cara" class="hero-card">
-        <h3>Cara Kerja</h3>
-        <ol class="steps">
-          <li>Anda isi brief & pilih paket.</li>
-          <li>Kami membuat konten otomatis menggunakan model generatif dan editor manusia.</li>
-          <li>Anda menerima draft, beri revisi bila perlu.</li>
-          <li>Konten final dikirim & bisa langsung dipublish.</li>
-        </ol>
-      </section>
+      <div class="plan popular">
+        <h3>Pro Plan</h3>
+        <p class="price">$124<span>/bulan</span></p>
+        <ul>
+          <li>15 Artikel Copywriting</li>
+          <li>3 Revisi Gratis</li>
+          <li>Waktu pengerjaan 2 hari</li>
+          <li>Prioritas Support</li>
+        </ul>
+        <a href="https://wa.me/6281234567890?text=Halo%20Nevile.store,%20saya%20ingin%20order%20Pro%20Plan" class="btn-primary">Order via WhatsApp</a>
+      </div>
 
-    </main>
+      <div class="plan">
+        <h3>Premium Plan</h3>
+        <p class="price">$299<span>/bulan</span></p>
+        <ul>
+          <li>Unlimited Artikel Copywriting</li>
+          <li>Unlimited Revisi</li>
+          <li>Waktu pengerjaan 1 hari</li>
+          <li>24/7 Priority Support</li>
+        </ul>
+        <a href="https://wa.me/6281234567890?text=Halo%20Nevile.store,%20saya%20ingin%20order%20Premium%20Plan" class="btn-outline">Order via WhatsApp</a>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-      &copy; 2025 SUARA URBAN — Semua hak dilindungi.
-    </footer>
-
-    <div class="accent-ring" aria-hidden="true"></div>
-  </div>
+  <footer id="contact" class="footer">
+    <p>© 2025 Nevile.store — Powered by Generative AI Copywriting</p>
+  </footer>
 </body>
 </html>
